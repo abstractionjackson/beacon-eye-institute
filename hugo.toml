@@ -82,12 +82,6 @@ theme = 'pog'
   weight = 4
 
 [[menus.main]]
-  name = "Our Doctors"
-  url = "/about/our-doctors/"
-  parent = "About Us"
-  weight = 1
-
-[[menus.main]]
   name = "Optical"
   url = "/optical/"
   weight = 5
