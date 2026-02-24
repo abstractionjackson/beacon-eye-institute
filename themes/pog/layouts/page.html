@@ -1,0 +1,28 @@
+{{ define "main" }}
+<div class="page-header">
+  <div class="container">
+    <h1 class="page-header__title">{{ .Title }}</h1>
+    {{ with .Description }}<p class="page-header__desc">{{ . }}</p>{{ end }}
+  </div>
+</div>
+<div class="container page-body">
+  <div class="page-content">
+    {{ .Content }}
+  </div>
+  <aside class="page-sidebar">
+    <div class="sidebar-widget sidebar-widget--cta">
+      <h3>Schedule an Appointment</h3>
+      <p>Our team is ready to help with your eye care needs.</p>
+      <a href="/contact/appointment/" class="btn btn--primary btn--block">Request Appointment</a>
+    </div>
+    <div class="sidebar-widget">
+      <h3>Our Locations</h3>
+      <ul class="sidebar-locations">
+        <li><strong>Burlingame</strong><br><a href="tel:6506973200">{{ site.Params.phone_burlingame }}</a></li>
+        <li><strong>Daly City</strong><br><a href="tel:6507562020">{{ site.Params.phone_daly_city }}</a></li>
+        <li><strong>San Francisco</strong><br><a href="tel:4153623364">{{ site.Params.phone_sf }}</a></li>
+      </ul>
+    </div>
+  </aside>
+</div>
+{{ end }}

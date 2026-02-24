@@ -1,0 +1,122 @@
+baseURL = 'https://www.pogvision.com/'
+languageCode = 'en-us'
+title = 'Peninsula Ophthalmology Group'
+theme = 'pog'
+
+[params]
+  description = "We at Peninsula Ophthalmology Group offer many eye care services, from surgery to treatment of eye diseases in the San Francisco Bay area. Call us today!"
+  phone_burlingame = "(650) 697-3200"
+  address_burlingame = "1720 El Camino Real UNIT #225"
+  phone_daly_city = "(650) 756-2020"
+  address_daly_city = "901 Campus Dr #205"
+  phone_sf = "(415) 362-3364"
+  address_sf = "291 Geary St #700"
+
+[[menus.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menus.main]]
+  name = "Services"
+  url = "/services/"
+  weight = 2
+  [menus.main.params]
+    hasChildren = true
+
+[[menus.main]]
+  name = "Dry Eye Treatment"
+  url = "/services/dry-eye-treatment/"
+  parent = "Services"
+  weight = 1
+
+[[menus.main]]
+  name = "Eye Exams"
+  url = "/services/eye-exams/"
+  parent = "Services"
+  weight = 2
+
+[[menus.main]]
+  name = "Eye Surgery"
+  url = "/services/eye-surgery/"
+  parent = "Services"
+  weight = 3
+
+[[menus.main]]
+  name = "Cataract Surgery"
+  url = "/services/cataract-surgery/"
+  parent = "Services"
+  weight = 4
+
+[[menus.main]]
+  name = "Glaucoma Treatment"
+  url = "/services/glaucoma-treatment/"
+  parent = "Services"
+  weight = 5
+
+[[menus.main]]
+  name = "LASIK Surgery"
+  url = "/services/lasik-surgery/"
+  parent = "Services"
+  weight = 6
+
+[[menus.main]]
+  name = "Contact Lens Exams"
+  url = "/services/contact-lens-exams/"
+  parent = "Services"
+  weight = 7
+
+[[menus.main]]
+  name = "Patient Center"
+  url = "/patient-center/"
+  weight = 3
+
+[[menus.main]]
+  name = "Online Forms"
+  url = "/patient-center/online-forms/"
+  parent = "Patient Center"
+  weight = 1
+
+[[menus.main]]
+  name = "Insurance & Payments"
+  url = "/patient-center/insurance-and-payments/"
+  parent = "Patient Center"
+  weight = 2
+
+[[menus.main]]
+  name = "About Us"
+  url = "/about/"
+  weight = 4
+
+[[menus.main]]
+  name = "Our Doctors"
+  url = "/about/our-doctors/"
+  parent = "About Us"
+  weight = 1
+
+[[menus.main]]
+  name = "Optical"
+  url = "/optical/"
+  weight = 5
+
+[[menus.main]]
+  name = "Contact Us"
+  url = "/contact/"
+  weight = 6
+
+[[menus.main]]
+  name = "Locations"
+  url = "/contact/locations/"
+  parent = "Contact Us"
+  weight = 1
+
+[[menus.main]]
+  name = "Appointment Request"
+  url = "/contact/appointment/"
+  parent = "Contact Us"
+  weight = 2
+
+[[menus.main]]
+  name = "Blog"
+  url = "/blog/"
+  weight = 7

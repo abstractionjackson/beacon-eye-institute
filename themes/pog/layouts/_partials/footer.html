@@ -1,0 +1,66 @@
+<footer class="site-footer">
+  <div class="footer-main">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col footer-col--brand">
+          <a href="/" class="footer-logo-text" aria-label="{{ site.Title }}">
+            <span class="footer-logo-text__main">Peninsula</span>
+            <span class="footer-logo-text__sub">Ophthalmology Group</span>
+          </a>
+          <p>Peninsula Ophthalmology Group provides comprehensive eye care services for the San Francisco Bay Area.</p>
+          <div class="footer-social">
+            <a href="https://www.facebook.com/pogeyes/" aria-label="Facebook" target="_blank" rel="noopener">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h3 class="footer-heading">Locations</h3>
+          <ul class="footer-list">
+            <li>
+              <strong>Burlingame</strong><br>
+              {{ site.Params.address_burlingame }}<br>
+              <a href="tel:6506973200">{{ site.Params.phone_burlingame }}</a>
+            </li>
+            <li>
+              <strong>Daly City</strong><br>
+              {{ site.Params.address_daly_city }}<br>
+              <a href="tel:6507562020">{{ site.Params.phone_daly_city }}</a>
+            </li>
+            <li>
+              <strong>San Francisco</strong><br>
+              {{ site.Params.address_sf }}<br>
+              <a href="tel:4153623364">{{ site.Params.phone_sf }}</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3 class="footer-heading">Services</h3>
+          <ul class="footer-list footer-list--links">
+            <li><a href="/services/eye-exams/">Eye Exams</a></li>
+            <li><a href="/services/cataract-surgery/">Cataract Surgery</a></li>
+            <li><a href="/services/glaucoma-treatment/">Glaucoma Treatment</a></li>
+            <li><a href="/services/lasik-surgery/">LASIK Surgery</a></li>
+            <li><a href="/services/dry-eye-treatment/">Dry Eye Treatment</a></li>
+            <li><a href="/services/contact-lens-exams/">Contact Lens Exams</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3 class="footer-heading">Hours</h3>
+          <ul class="footer-list">
+            <li>Mon – Thu: 9:00 AM – 6:00 PM</li>
+            <li>Friday: 9:00 AM – 5:00 PM</li>
+            <li>Sat – Sun: Closed</li>
+          </ul>
+          <a href="/contact/appointment/" class="btn btn--primary btn--sm" style="margin-top:1rem;">Request Appointment</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <p>&copy; {{ now.Year }} Peninsula Ophthalmology Group. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+<script src="/js/main.js"></script>

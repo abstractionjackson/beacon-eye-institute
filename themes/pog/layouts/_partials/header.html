@@ -1,0 +1,67 @@
+<header class="site-header">
+  <!-- Top info bar -->
+  <div class="header-info-bar">
+    <div class="container">
+      <div class="header-locations">
+        <div class="header-location">
+          <strong>BURLINGAME</strong>
+          <a href="tel:6506973200">{{ site.Params.phone_burlingame }}</a>
+          <span>{{ site.Params.address_burlingame }}</span>
+        </div>
+        <div class="header-location">
+          <strong>DALY CITY</strong>
+          <a href="tel:6507562020">{{ site.Params.phone_daly_city }}</a>
+          <span>{{ site.Params.address_daly_city }}</span>
+        </div>
+        <div class="header-location">
+          <strong>SAN FRANCISCO</strong>
+          <a href="tel:4153623364">{{ site.Params.phone_sf }}</a>
+          <span>{{ site.Params.address_sf }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Logo + Nav bar -->
+  <div class="header-nav-bar">
+    <div class="container header-nav-inner">
+      <a href="/" class="header-logo" aria-label="{{ site.Title }}">
+        <img src="https://cdcssl.ibsrv.net/ibimg/smb/350x93_80/webmgr/19/s/t/_logo/pog-logo-final.png.webp?13459fdf0490ad3046a16367ea57fcf8"
+             alt="{{ site.Title }}" width="280" height="74">
+      </a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="main-menu" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+        <ul id="main-menu" class="nav-list">
+          {{ range site.Menus.main }}
+            {{ if not .Parent }}
+              <li class="nav-item{{ if .HasChildren }} has-dropdown{{ end }}">
+                <a href="{{ .URL }}" class="nav-link">{{ .Name }}</a>
+                {{ if .HasChildren }}
+                  <ul class="nav-dropdown">
+                    {{ range .Children }}
+                      <li class="nav-dropdown-item{{ if .HasChildren }} has-dropdown{{ end }}">
+                        <a href="{{ .URL }}">{{ .Name }}</a>
+                        {{ if .HasChildren }}
+                          <ul class="nav-dropdown nav-dropdown--sub">
+                            {{ range .Children }}
+                              <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                            {{ end }}
+                          </ul>
+                        {{ end }}
+                      </li>
+                    {{ end }}
+                  </ul>
+                {{ end }}
+              </li>
+            {{ end }}
+          {{ end }}
+          <li class="nav-item nav-item--cta">
+            <a href="/contact/appointment/" class="btn btn--primary">Request Appointment</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
