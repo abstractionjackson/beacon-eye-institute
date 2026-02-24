@@ -1,4 +1,4 @@
-baseURL = 'https://www.beaconeyeinstitute.com/'
+baseURL = 'https://abstractionjackson.github.io/beacon-eye-institute/'
 languageCode = 'en-us'
 title = 'Beacon Eye Institute'
 theme = 'pog'
