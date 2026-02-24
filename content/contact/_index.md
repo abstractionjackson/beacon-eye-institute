@@ -1,21 +1,18 @@
 ---
 title: "Contact Us"
-description: "Get in touch with Peninsula Ophthalmology Group. We serve Burlingame, Daly City, and San Francisco, CA."
+description: "Contact Beacon Eye Institute in San Jose, CA. Call (408) 272-3706 to schedule an appointment with Dr. Ngoc Nguyen."
 ---
 
-We are here to help. Contact any of our three Bay Area locations or fill out our appointment request form.
+We welcome new and existing patients. Please reach out by phone or visit us at our San Jose office.
 
-## Burlingame
-1720 El Camino Real UNIT #225, Burlingame, CA 94010
-**Phone:** (650) 697-3200
+## Office Location
 
-## Daly City
-901 Campus Dr #205, Daly City, CA 94015
-**Phone:** (650) 756-2020
+**Ngoc Nguyen, M.D.**
+2380 Montpelier Drive, Suite 300
+San Jose, CA 95116
 
-## San Francisco
-291 Geary St #700, San Francisco, CA 94102
-**Phone:** (415) 362-3364
+**Phone:** (408) 272-3706
+**Fax:** (408) 254-4094
 
 ## Hours of Operation
 

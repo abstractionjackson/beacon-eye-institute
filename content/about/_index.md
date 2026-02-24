@@ -1,17 +1,29 @@
 ---
 title: "About Us"
-description: "Learn about Peninsula Ophthalmology Group and our team of board-certified ophthalmologists and optometrists."
+description: "Learn about Beacon Eye Institute and Dr. Ngoc Nguyen, M.D. — a board-certified ophthalmologist in San Jose, CA."
 ---
 
-Peninsula Ophthalmology Group has been serving the San Francisco Bay Area for decades. Our team of board-certified ophthalmologists and licensed optometrists are dedicated to providing the highest quality eye care for every patient.
+Beacon Eye Institute is led by **Ngoc Nguyen, M.D.**, a board-certified ophthalmologist with decades of experience treating patients in the South Bay Area.
 
-## Our Mission
+## About Dr. Ngoc Nguyen, M.D.
 
-Our goal is to provide the best care possible and to keep your eye health and vision at their best. We believe in a patient-centered approach, ensuring you are informed and comfortable throughout every step of your care.
+Dr. Nguyen completed her ophthalmology residency at California Pacific Medical Center in San Francisco and a prestigious Fellowship in Glaucoma at the University of California, San Francisco (UCSF). She has been in private practice in San Jose since 1994.
 
-## Our Doctors
+Dr. Nguyen is board-certified by the American Board of Ophthalmology and is an active member of:
 
-We have an experienced team of specialists:
+- American Academy of Ophthalmology
+- California Association of Ophthalmology
+- West Coast Glaucoma Society
+- Vietnamese Physicians Association of Northern California
 
-- **Ophthalmologists** — Board-certified physicians specializing in the medical and surgical treatment of eye conditions including cataracts, glaucoma, macular degeneration, and more.
-- **Optometrists** — Licensed eye care professionals providing comprehensive eye exams, contact lens fittings, and vision correction services.
+## Research & Academic Contributions
+
+Dr. Nguyen is an active researcher and has authored over 30 peer-reviewed publications in leading ophthalmology journals, with a particular focus on glaucoma and the Vietnamese patient population. She maintains an ongoing glaucoma research collaboration with UCSF.
+
+## Hospital Privileges
+
+Dr. Nguyen holds active staff privileges at Regional Medical Center, San Jose.
+
+## Languages
+
+Dr. Nguyen is fluent in both **English** and **Vietnamese** (spoken and written), allowing her to serve the Vietnamese community of the South Bay.

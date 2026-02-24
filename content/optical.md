@@ -1,6 +1,6 @@
 ---
 title: "Optical"
-description: "Eyeglass frames, lenses, and sunglasses from Peninsula Ophthalmology Group's optical boutique."
+description: "Eyeglass frames, lenses, and sunglasses from Beacon Eye Institute's optical boutique."
 ---
 
 ## Optical Services

@@ -16,11 +16,13 @@
       <a href="/contact/appointment/" class="btn btn--primary btn--block">Request Appointment</a>
     </div>
     <div class="sidebar-widget">
-      <h3>Our Locations</h3>
+      <h3>Contact Us</h3>
       <ul class="sidebar-locations">
-        <li><strong>Burlingame</strong><br><a href="tel:6506973200">{{ site.Params.phone_burlingame }}</a></li>
-        <li><strong>Daly City</strong><br><a href="tel:6507562020">{{ site.Params.phone_daly_city }}</a></li>
-        <li><strong>San Francisco</strong><br><a href="tel:4153623364">{{ site.Params.phone_sf }}</a></li>
+        <li>
+          <strong>{{ site.Params.doctor_name }}</strong>
+          {{ site.Params.address }}<br>{{ site.Params.city }}<br>
+          <a href="tel:4082723706">{{ site.Params.phone }}</a>
+        </li>
       </ul>
     </div>
   </aside>

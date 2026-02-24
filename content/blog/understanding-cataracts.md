@@ -22,6 +22,6 @@ Most cataracts are related to aging. As we get older, proteins in the lens begin
 
 ## Treatment
 
-The only effective treatment for cataracts is surgery. Cataract surgery is one of the safest and most successful procedures performed today. Our surgeons at Peninsula Ophthalmology Group use modern, minimally invasive techniques to remove the cloudy lens and replace it with a clear artificial lens (IOL).
+The only effective treatment for cataracts is surgery. Cataract surgery is one of the safest and most successful procedures performed today. Our surgeons at Beacon Eye Institute use modern, minimally invasive techniques to remove the cloudy lens and replace it with a clear artificial lens (IOL).
 
-If you are experiencing any changes in your vision, contact us to schedule an evaluation.
+If you are experiencing any changes in your vision, contact us at (408) 272-3706 to schedule an evaluation.

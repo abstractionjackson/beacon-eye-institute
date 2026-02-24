@@ -1,25 +1,17 @@
 ---
-title: "Our Locations"
-description: "Peninsula Ophthalmology Group has three convenient Bay Area locations in Burlingame, Daly City, and San Francisco."
+title: "Our Location"
+description: "Beacon Eye Institute is located at 2380 Montpelier Drive, Suite 300, San Jose, CA 95116."
 ---
 
-## Our Three Locations
+## Beacon Eye Institute
 
-### Burlingame (Main Office)
-1720 El Camino Real UNIT #225
-Burlingame, CA 94010
-**(650) 697-3200**
+**Ngoc Nguyen, M.D.**
+2380 Montpelier Drive, Suite 300
+San Jose, CA 95116
 
-### Daly City
-901 Campus Dr #205
-Daly City, CA 94015
-**(650) 756-2020**
+**Phone:** (408) 272-3706
+**Fax:** (408) 254-4094
 
-### San Francisco
-291 Geary St #700
-San Francisco, CA 94102
-**(415) 362-3364**
+Conveniently located in San Jose, serving patients throughout the South Bay Area.
 
----
-
-Serving the entire San Francisco Bay Area including Burlingame, Daly City, San Francisco, and surrounding communities.
+[Get Directions](https://maps.google.com/?q=2380+Montpelier+Drive+Suite+300+San+Jose+CA+95116)

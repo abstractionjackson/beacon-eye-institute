@@ -1,5 +1,5 @@
 /* ============================================
-   Peninsula Ophthalmology Group - Main CSS
+   Beacon Eye Institute - Main CSS
    Brand Colors:
      --color1: #00549f (primary blue)
      --color2: #001e39 (dark navy)
@@ -123,7 +123,33 @@ ul { list-style: none; }
 .header-location a:hover { color: var(--color5); }
 .header-location span { color: var(--color4); font-size: 0.75rem; }
 
+.header-logo--text {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  text-decoration: none;
+}
+.header-logo__icon { font-size: 2rem; line-height: 1; }
+.header-logo__name { display: flex; flex-direction: column; }
+.header-logo__main {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--color2);
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+}
+.header-logo__sub {
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--color1);
+  font-weight: 600;
+}
+
+.header-logo__img { height: 60px; width: auto; display: block; }
+
 .header-nav-bar { background: var(--white); border-bottom: 1px solid var(--color4); }
+
 .header-nav-inner {
   display: flex;
   align-items: center;
@@ -297,6 +323,8 @@ ul { list-style: none; }
   gap: 1.5rem;
   margin-top: 2rem;
 }
+.locations-grid--single { max-width: 420px; margin: 2rem auto 0; }
+
 .location-card {
   background: var(--color3);
   border-radius: var(--radius);
@@ -439,8 +467,30 @@ ul { list-style: none; }
 }
 
 /* ============================================
-   RESPONSIVE
+   404 PAGE
 ============================================ */
+.error-404 {
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 0;
+  background: var(--color3);
+}
+.error-404__inner { text-align: center; max-width: 560px; }
+.error-404__icon { font-size: 4rem; margin-bottom: 1rem; }
+.error-404__title {
+  font-size: 6rem;
+  font-weight: 700;
+  color: var(--color1);
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+.error-404__msg { font-size: 1.5rem; color: var(--color2); font-weight: 600; margin-bottom: 0.5rem; }
+.error-404__sub { color: var(--text-light); margin-bottom: 2rem; }
+.error-404__actions { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-bottom: 2rem; }
+.error-404__contact { color: var(--text-light); font-size: 0.95rem; }
+.error-404__contact a { color: var(--color1); font-weight: 600; }
 @media (max-width: 1024px) {
   .footer-grid { grid-template-columns: 1fr 1fr; gap: 2rem; }
   .about-strip-grid { grid-template-columns: 1fr; }

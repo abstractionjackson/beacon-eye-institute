@@ -1,6 +1,6 @@
 ---
 title: "Insurance & Payments"
-description: "Information about accepted insurance plans and payment options at Peninsula Ophthalmology Group."
+description: "Information about accepted insurance plans and payment options at Beacon Eye Institute."
 ---
 
 ## Insurance & Payments
@@ -22,4 +22,4 @@ We accept all major credit cards, checks, and cash. We also work with patients o
 
 ### Questions?
 
-Please call our Burlingame office at (650) 697-3200 with any billing or insurance questions.
+Please call our San Jose office at (408) 272-3706 with any billing or insurance questions.

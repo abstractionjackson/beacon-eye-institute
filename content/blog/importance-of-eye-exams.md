@@ -25,4 +25,4 @@ During a comprehensive eye exam, your eye doctor doesn't just check your vision 
 - **Adults over 60:** Annually
 - **Patients with diabetes or glaucoma risk:** Annually or as directed
 
-Schedule your comprehensive eye exam at Peninsula Ophthalmology Group today.
+Schedule your comprehensive eye exam at Beacon Eye Institute today. Call (408) 272-3706 to schedule..

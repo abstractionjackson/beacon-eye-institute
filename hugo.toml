@@ -1,16 +1,15 @@
-baseURL = 'https://www.pogvision.com/'
+baseURL = 'https://www.beaconeyeinstitute.com/'
 languageCode = 'en-us'
-title = 'Peninsula Ophthalmology Group'
+title = 'Beacon Eye Institute'
 theme = 'pog'
 
 [params]
-  description = "We at Peninsula Ophthalmology Group offer many eye care services, from surgery to treatment of eye diseases in the San Francisco Bay area. Call us today!"
-  phone_burlingame = "(650) 697-3200"
-  address_burlingame = "1720 El Camino Real UNIT #225"
-  phone_daly_city = "(650) 756-2020"
-  address_daly_city = "901 Campus Dr #205"
-  phone_sf = "(415) 362-3364"
-  address_sf = "291 Geary St #700"
+  description = "Beacon Eye Institute provides comprehensive ophthalmology and eye care services in San Jose, CA. Led by Ngoc Nguyen, M.D. — call (408) 272-3706 to schedule."
+  doctor_name = "Ngoc Nguyen, M.D."
+  phone = "(408) 272-3706"
+  fax = "(408) 254-4094"
+  address = "2380 Montpelier Drive, Suite 300"
+  city = "San Jose, CA 95116"
 
 [[menus.main]]
   name = "Home"
@@ -53,12 +52,6 @@ theme = 'pog'
   url = "/services/glaucoma-treatment/"
   parent = "Services"
   weight = 5
-
-[[menus.main]]
-  name = "LASIK Surgery"
-  url = "/services/lasik-surgery/"
-  parent = "Services"
-  weight = 6
 
 [[menus.main]]
   name = "Contact Lens Exams"

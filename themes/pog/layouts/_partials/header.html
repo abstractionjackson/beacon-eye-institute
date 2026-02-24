@@ -4,19 +4,12 @@
     <div class="container">
       <div class="header-locations">
         <div class="header-location">
-          <strong>BURLINGAME</strong>
-          <a href="tel:6506973200">{{ site.Params.phone_burlingame }}</a>
-          <span>{{ site.Params.address_burlingame }}</span>
+          <strong>SAN JOSE</strong>
+          <a href="tel:4082723706">{{ site.Params.phone }}</a>
+          <span>{{ site.Params.address }}, {{ site.Params.city }}</span>
         </div>
-        <div class="header-location">
-          <strong>DALY CITY</strong>
-          <a href="tel:6507562020">{{ site.Params.phone_daly_city }}</a>
-          <span>{{ site.Params.address_daly_city }}</span>
-        </div>
-        <div class="header-location">
-          <strong>SAN FRANCISCO</strong>
-          <a href="tel:4153623364">{{ site.Params.phone_sf }}</a>
-          <span>{{ site.Params.address_sf }}</span>
+        <div class="header-location header-location--right">
+          <span>Fax: {{ site.Params.fax }}</span>
         </div>
       </div>
     </div>
@@ -26,8 +19,7 @@
   <div class="header-nav-bar">
     <div class="container header-nav-inner">
       <a href="/" class="header-logo" aria-label="{{ site.Title }}">
-        <img src="https://cdcssl.ibsrv.net/ibimg/smb/350x93_80/webmgr/19/s/t/_logo/pog-logo-final.png.webp?13459fdf0490ad3046a16367ea57fcf8"
-             alt="{{ site.Title }}" width="280" height="74">
+        <img src="/branding-bg-light.png" alt="{{ site.Title }}" class="header-logo__img">
       </a>
       <nav class="main-nav" aria-label="Main navigation">
         <button class="nav-toggle" aria-expanded="false" aria-controls="main-menu" aria-label="Toggle menu">
