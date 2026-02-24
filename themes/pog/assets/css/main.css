@@ -438,10 +438,6 @@ ul {
     background-image: url("{{ "hero-3.jpg" | relURL }}");
     animation-delay: 12s;
 }
-.hero-slide--4 {
-    background-image: url("{{ "hero-4.jpg" | relURL }}");
-    animation-delay: 19s;
-}
 @keyframes heroFade {
     0% {
         opacity: 0;
