@@ -5,7 +5,7 @@ description: "Learn about Beacon Eye Institute and Dr. Ngoc Nguyen, M.D. — a b
 
 {{< figure src="/beacon-eye-institute/avatar.png" alt="Dr. Ngoc Nguyen, M.D." caption="Ngoc Nguyen, M.D. — Board-Certified Ophthalmologist" class="doctor-avatar" >}}
 
-Beacon Eye Institute is led by **Ngoc Nguyen, M.D.**, a board-certified ophthalmologist with decades of experience treating patients in the South Bay Area.
+Beacon Eye Institute is led by **Ngoc Nguyen, M.D.**, a board-certified ophthalmologist and fellowship-trained glaucoma specialist with decades of experience treating patients in the South Bay Area.
 
 ## About Dr. Ngoc Nguyen, M.D.
 
