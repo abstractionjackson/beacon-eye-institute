@@ -1,7 +1,7 @@
 ---
 title: "Cataract Surgery"
 description: "Advanced cataract surgery to restore clear, comfortable vision."
-image: "https://picsum.photos/seed/cataract/800/400"
+image: "services/cataract-surgery.svg"
 ---
 
 ## Cataract Surgery

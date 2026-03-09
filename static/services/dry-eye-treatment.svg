@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00549f;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#003060;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="glow2" cx="68%" cy="38%" r="42%">
+      <stop offset="0%" style="stop-color:#7ec8e3;stop-opacity:0.22" />
+      <stop offset="100%" style="stop-color:#003060;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="800" height="400" fill="url(#bg)" />
+  <rect width="800" height="400" fill="url(#glow2)" />
+  <!-- Eye drop bottle (right side) -->
+  <g transform="translate(596, 185)">
+    <!-- Bottle body -->
+    <rect x="-22" y="-55" width="44" height="105" rx="9" fill="white" fill-opacity="0.18"/>
+    <rect x="-22" y="-55" width="44" height="105" rx="9" fill="none" stroke="white" stroke-opacity="0.55" stroke-width="2"/>
+    <!-- Bottle highlight -->
+    <rect x="-14" y="-48" width="10" height="80" rx="5" fill="white" fill-opacity="0.18"/>
+    <!-- Neck -->
+    <rect x="-12" y="-75" width="24" height="24" rx="4" fill="white" fill-opacity="0.22"/>
+    <rect x="-12" y="-75" width="24" height="24" rx="4" fill="none" stroke="white" stroke-opacity="0.5" stroke-width="1.5"/>
+    <!-- Tip -->
+    <polygon points="-5,-75 5,-75 3,-60 -3,-60" fill="white" fill-opacity="0.55"/>
+    <!-- Falling drop 1 -->
+    <ellipse cx="0" cy="-92" rx="5" ry="7" fill="white" fill-opacity="0.85"/>
+    <!-- Falling drop 2 (smaller, below) -->
+    <ellipse cx="0" cy="-109" rx="3" ry="4" fill="white" fill-opacity="0.55"/>
+    <!-- Moisture waves below bottle -->
+    <path d="M-55,70 Q-25,58 5,70 Q35,82 65,70" fill="none" stroke="white" stroke-opacity="0.45" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M-45,88 Q-18,78 12,88 Q42,98 68,88" fill="none" stroke="white" stroke-opacity="0.3" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <!-- Eye with moisture detail (centered left) -->
+  <g transform="translate(240, 188)">
+    <!-- Eye outline -->
+    <path d="M-120,-40 C-80,-95 80,-95 120,-40 C80,15 -80,15 -120,-40 Z"
+          fill="none" stroke="white" stroke-width="4" stroke-opacity="0.9"/>
+    <!-- Iris -->
+    <circle cx="0" cy="-40" r="32" fill="none" stroke="white" stroke-width="3.5" stroke-opacity="0.9"/>
+    <!-- Inner iris -->
+    <circle cx="0" cy="-40" r="20" fill="none" stroke="white" stroke-width="1.5" stroke-opacity="0.45"/>
+    <!-- Pupil -->
+    <circle cx="0" cy="-40" r="11" fill="white" fill-opacity="0.9"/>
+    <!-- Tear film highlight (upper lid edge) -->
+    <path d="M-120,-40 C-80,-95 80,-95 120,-40"
+          fill="none" stroke="white" stroke-width="2" stroke-opacity="0.4" stroke-dasharray="5,4"/>
+    <!-- Tear drop above eye -->
+    <path d="M28,-78 Q33,-66 28,-56 Q23,-66 28,-78 Z" fill="white" fill-opacity="0.8"/>
+    <line x1="28" y1="-84" x2="28" y2="-100" stroke="white" stroke-opacity="0.5" stroke-width="1.5" stroke-dasharray="3,3"/>
+  </g>
+  <!-- Label -->
+  <text x="240" y="292" text-anchor="middle"
+        font-family="'Open Sans', Arial, sans-serif" font-size="22" font-weight="700"
+        fill="white" fill-opacity="0.95">Dry Eye Treatment</text>
+  <text x="240" y="318" text-anchor="middle"
+        font-family="'Open Sans', Arial, sans-serif" font-size="14"
+        fill="white" fill-opacity="0.7">Tear Film Therapy &amp; Moisture Restoration</text>
+  <!-- Medical cross badge -->
+  <g transform="translate(728, 52)" fill="white" fill-opacity="0.3">
+    <rect x="-22" y="-8" width="44" height="16" rx="3"/>
+    <rect x="-8" y="-22" width="16" height="44" rx="3"/>
+  </g>
+</svg>

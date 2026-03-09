@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#003a70;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#001020;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="orlight" cx="75%" cy="35%" r="40%">
+      <stop offset="0%" style="stop-color:#c8e6ff;stop-opacity:0.25" />
+      <stop offset="100%" style="stop-color:#001e39;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  <rect width="800" height="400" fill="url(#bg)" />
+  <rect width="800" height="400" fill="url(#orlight)" />
+  <!-- Operating room light (right) -->
+  <g transform="translate(620, 120)" opacity="0.22">
+    <circle cx="0" cy="0" r="100" fill="white"/>
+    <circle cx="0" cy="0" r="75" fill="none" stroke="#003a70" stroke-width="4"/>
+    <circle cx="0" cy="0" r="52" fill="none" stroke="#003a70" stroke-width="4"/>
+    <circle cx="0" cy="0" r="28" fill="none" stroke="#003a70" stroke-width="4"/>
+    <!-- Arms of light fixture -->
+    <line x1="0" y1="-100" x2="0" y2="-150" stroke="white" stroke-width="6" stroke-linecap="round"/>
+    <line x1="-30" y1="-130" x2="30" y2="-130" stroke="white" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <!-- Surgical microscope eyepiece circles (left) -->
+  <g transform="translate(580, 290)" opacity="0.12">
+    <ellipse cx="-45" cy="0" rx="35" ry="20" fill="white"/>
+    <ellipse cx="45" cy="0" rx="35" ry="20" fill="white"/>
+    <line x1="-10" y1="0" x2="10" y2="0" stroke="white" stroke-width="3"/>
+    <line x1="0" y1="-40" x2="0" y2="-100" stroke="white" stroke-width="6"/>
+  </g>
+  <!-- Eye with surgical precision lines -->
+  <g transform="translate(235, 185)" stroke="white" fill="none" opacity="0.9">
+    <!-- Eye outline -->
+    <path d="M-115,-40 C-75,-95 75,-95 115,-40 C75,15 -75,15 -115,-40 Z" fill="none" stroke="white" stroke-width="3.5"/>
+    <!-- Iris -->
+    <circle cx="0" cy="-40" r="34" fill="none" stroke="white" stroke-width="3"/>
+    <!-- Pupil -->
+    <circle cx="0" cy="-40" r="14" fill="white" opacity="0.9"/>
+    <!-- Surgical precision rings -->
+    <circle cx="0" cy="-40" r="22" fill="none" stroke="white" stroke-width="1" stroke-dasharray="2,3" opacity="0.5"/>
+    <!-- Incision mark (LASIK/surgical) -->
+    <path d="M-34,-40 Q0,-60 34,-40" fill="none" stroke="#7ec8e3" stroke-width="2" opacity="0.8"/>
+    <!-- Precision cross-hair -->
+    <line x1="-50" y1="-40" x2="-38" y2="-40" stroke="white" stroke-width="1.5" opacity="0.6"/>
+    <line x1="38" y1="-40" x2="50" y2="-40" stroke="white" stroke-width="1.5" opacity="0.6"/>
+    <line x1="0" y1="-56" x2="0" y2="-50" stroke="white" stroke-width="1.5" opacity="0.6"/>
+    <line x1="0" y1="-30" x2="0" y2="-24" stroke="white" stroke-width="1.5" opacity="0.6"/>
+    <!-- Surgeon's glove outline -->
+    <path d="M-80,40 L-90,80 L-60,90 L-50,60" fill="none" stroke="white" stroke-width="2" opacity="0.5"/>
+    <path d="M80,40 L90,80 L60,90 L50,60" fill="none" stroke="white" stroke-width="2" opacity="0.5"/>
+  </g>
+  <!-- IOL lens icon -->
+  <g transform="translate(235, 185)" opacity="0.4">
+    <ellipse cx="160" cy="-80" rx="28" ry="18" fill="none" stroke="white" stroke-width="1.5"/>
+    <path d="M132,-80 Q160,-100 188,-80" fill="none" stroke="white" stroke-width="1" opacity="0.7"/>
+    <line x1="160" y1="-98" x2="160" y2="-105" stroke="white" stroke-width="2" stroke-linecap="round"/>
+    <line x1="160" y1="-62" x2="160" y2="-55" stroke="white" stroke-width="2" stroke-linecap="round"/>
+    <text x="170" y="-75" font-family="monospace" font-size="9" fill="white" opacity="0.8">IOL</text>
+  </g>
+  <!-- Label -->
+  <g transform="translate(235, 200)">
+    <text text-anchor="middle" y="50" font-family="'Open Sans', Arial, sans-serif" font-size="22" font-weight="700" fill="white" opacity="0.95">Eye Surgery</text>
+    <text text-anchor="middle" y="78" font-family="'Open Sans', Arial, sans-serif" font-size="14" fill="white" opacity="0.7">Advanced Ophthalmic Surgical Procedures</text>
+  </g>
+  <!-- Medical cross badge -->
+  <g transform="translate(720, 50)" fill="white" opacity="0.25">
+    <rect x="-22" y="-8" width="44" height="16" rx="3"/>
+    <rect x="-8" y="-22" width="16" height="44" rx="3"/>
+  </g>
+</svg>

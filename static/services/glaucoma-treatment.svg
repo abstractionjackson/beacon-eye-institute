@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#005580;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#001e39;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="400" fill="url(#bg)" />
+  <!-- Subtle horizontal bands -->
+  <g opacity="0.05" fill="white">
+    <rect x="0" y="0" width="800" height="2"/>
+    <rect x="0" y="80" width="800" height="2"/>
+    <rect x="0" y="160" width="800" height="2"/>
+    <rect x="0" y="240" width="800" height="2"/>
+    <rect x="0" y="320" width="800" height="2"/>
+    <rect x="0" y="400" width="800" height="2"/>
+  </g>
+  <!-- Pressure gauge / tonometer visual -->
+  <g transform="translate(580, 190)" opacity="0.2">
+    <!-- Gauge outer ring -->
+    <circle cx="0" cy="0" r="110" fill="none" stroke="white" stroke-width="6"/>
+    <circle cx="0" cy="0" r="90" fill="none" stroke="white" stroke-width="2"/>
+    <!-- Gauge tick marks -->
+    <g stroke="white" stroke-width="3">
+      <line x1="0" y1="-110" x2="0" y2="-90"/>
+      <line x1="78" y1="-78" x2="64" y2="-64"/>
+      <line x1="110" y1="0" x2="90" y2="0"/>
+      <line x1="78" y1="78" x2="64" y2="64"/>
+      <line x1="0" y1="110" x2="0" y2="90"/>
+      <line x1="-78" y1="78" x2="-64" y2="64"/>
+      <line x1="-110" y1="0" x2="-90" y2="0"/>
+      <line x1="-78" y1="-78" x2="-64" y2="-64"/>
+    </g>
+    <!-- Needle pointing to ~2 o'clock (normal pressure) -->
+    <line x1="0" y1="0" x2="60" y2="-75" stroke="white" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="8" fill="white"/>
+    <!-- IOP label -->
+    <text text-anchor="middle" y="30" font-family="monospace" font-size="14" fill="white">IOP</text>
+    <text text-anchor="middle" y="50" font-family="monospace" font-size="11" fill="white">mmHg</text>
+  </g>
+  <!-- Eye with optic nerve visualization -->
+  <g transform="translate(235, 175)" stroke="white" fill="none" opacity="0.9">
+    <!-- Eye outline -->
+    <path d="M-110,-38 C-70,-88 70,-88 110,-38 C70,12 -70,12 -110,-38 Z" fill="none" stroke="white" stroke-width="3.5"/>
+    <!-- Iris -->
+    <circle cx="0" cy="-38" r="32" fill="none" stroke="white" stroke-width="3"/>
+    <!-- Pupil -->
+    <circle cx="0" cy="-38" r="14" fill="white" opacity="0.9"/>
+    <!-- Optic nerve visualization rings (OCT scan look) -->
+    <circle cx="0" cy="-38" r="46" fill="none" stroke="white" stroke-width="1" stroke-dasharray="3,4" opacity="0.5"/>
+    <circle cx="0" cy="-38" r="58" fill="none" stroke="white" stroke-width="1" stroke-dasharray="2,5" opacity="0.3"/>
+    <!-- Measurement lines -->
+    <line x1="-110" y1="-38" x2="-130" y2="-38" stroke="white" stroke-width="1" stroke-dasharray="3,3" opacity="0.6"/>
+    <line x1="110" y1="-38" x2="130" y2="-38" stroke="white" stroke-width="1" stroke-dasharray="3,3" opacity="0.6"/>
+    <text x="-145" y="-34" font-family="monospace" font-size="10" fill="white" opacity="0.6">⟵</text>
+    <text x="135" y="-34" font-family="monospace" font-size="10" fill="white" opacity="0.6">⟶</text>
+  </g>
+  <!-- Label -->
+  <g transform="translate(235, 200)">
+    <text text-anchor="middle" y="55" font-family="'Open Sans', Arial, sans-serif" font-size="22" font-weight="700" fill="white" opacity="0.95">Glaucoma Treatment</text>
+    <text text-anchor="middle" y="83" font-family="'Open Sans', Arial, sans-serif" font-size="14" fill="white" opacity="0.7">Intraocular Pressure Monitoring &amp; Care</text>
+  </g>
+  <!-- Medical cross -->
+  <g transform="translate(720, 50)" fill="white" opacity="0.25">
+    <rect x="-22" y="-8" width="44" height="16" rx="3"/>
+    <rect x="-8" y="-22" width="16" height="44" rx="3"/>
+  </g>
+</svg>

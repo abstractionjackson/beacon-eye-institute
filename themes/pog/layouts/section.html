@@ -13,7 +13,7 @@
         <article class="content-card">
           <header class="content-card__header">
             <img
-              src="{{ with .Params.image }}{{ . }}{{ else }}https://picsum.photos/seed/{{ .File.BaseFileName }}/800/400{{ end }}"
+              src="{{ with .Params.image }}{{ . | relURL }}{{ else }}https://picsum.photos/seed/{{ .File.BaseFileName }}/800/400{{ end }}"
               alt="{{ .Title }}"
               class="content-card__image"
               loading="lazy"

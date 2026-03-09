@@ -1,7 +1,7 @@
 ---
 title: "Eye Surgery"
 description: "Expert eye surgery services at Beacon Eye Institute, led by Ngoc Nguyen, M.D. in San Jose, CA."
-image: "https://picsum.photos/seed/eye-surgery/800/400"
+image: "services/eye-surgery.svg"
 ---
 
 ## Eye Surgery at Beacon Eye Institute
