@@ -1,6 +1,7 @@
 ---
 title: "Eye Exams"
 description: "Comprehensive eye exams to monitor your vision health and detect eye conditions early."
+image: "https://picsum.photos/seed/eye-exams/800/400"
 ---
 
 ## Comprehensive Eye Exams

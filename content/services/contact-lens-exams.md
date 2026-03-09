@@ -1,6 +1,7 @@
 ---
 title: "Contact Lens Exams"
 description: "Specialized contact lens fittings for soft, gas-permeable, and specialty lenses."
+image: "https://picsum.photos/seed/contact-lens/800/400"
 ---
 
 ## Contact Lens Exams

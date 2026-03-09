@@ -1,6 +1,7 @@
 ---
 title: "Glaucoma Treatment"
 description: "Expert diagnosis and treatment of glaucoma to protect your vision."
+image: "https://picsum.photos/seed/glaucoma/800/400"
 ---
 
 ## Glaucoma Treatment

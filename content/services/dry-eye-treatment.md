@@ -1,6 +1,7 @@
 ---
 title: "Dry Eye Treatment"
 description: "Effective treatments for dry eye syndrome to relieve discomfort and restore eye moisture."
+image: "https://picsum.photos/seed/dry-eye/800/400"
 ---
 
 ## Dry Eye Treatment
