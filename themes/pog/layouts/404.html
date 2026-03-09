@@ -6,9 +6,9 @@
     <p class="error-404__msg">We couldn't find that page.</p>
     <p class="error-404__sub">The link may be broken or the page may have moved.</p>
     <div class="error-404__actions">
-      <a href="/" class="btn btn--primary btn--lg">Go to Homepage</a>
-      <a href="/services/" class="btn btn--secondary btn--lg">Browse Services</a>
-      <a href="/contact/appointment/" class="btn btn--outline btn--lg" style="border-color:var(--color1);color:var(--color1);">Request Appointment</a>
+      <a href="{{ site.BaseURL }}" class="btn btn--primary btn--lg">Go to Homepage</a>
+      <a href="{{ "services/" | relURL }}" class="btn btn--secondary btn--lg">Browse Services</a>
+      <a href="{{ "contact/appointment/" | relURL }}" class="btn btn--outline btn--lg" style="border-color:var(--color1);color:var(--color1);">Request Appointment</a>
     </div>
     <div class="error-404__contact">
       <p>Need help? Call us at <a href="tel:4082723706">(408) 272-3706</a></p>
